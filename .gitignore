@@ -1,2 +1,20 @@
 # Visual Studio IDE 临时文件
 .vs/
+
+# 编译中间产物与输出
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exe
+*.log
+*.tlog
+*.recipe
+*.module.json.command
+
+# 用户特定配置
+*.vcxproj.user
+*.slnx.sqlite
